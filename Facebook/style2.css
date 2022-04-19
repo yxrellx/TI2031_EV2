@@ -1,0 +1,223 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #18191a;
+    align-items: center;
+}
+
+nav { 
+    width: 100%;
+    height: 57px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #242526;
+    border-bottom: thin solid #393a3b;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo > img{
+    width: 41px;
+    border-radius: 50%;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.buscar {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #3a3b3c;
+    border-radius: 1.5rem;
+}
+
+.buscar img {
+    padding: 0 .5rem;
+}
+
+.buscar > input {
+    height: 40px;
+    border-radius: 1.5rem;
+    background-color: #3a3b3c;
+    outline: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.buscar > input::placeholder {
+    font-size: .9rem;
+    font-weight: 400;
+    color: #9fa1a7;
+}
+
+.opcion img {
+    padding: .7vw 3vw;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.opcion img:hover {
+    background-color: blue;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 9%;
+    width: 100%;
+    border-radius: 2%;
+    
+}
+#pensando{
+    height: 40px;
+    
+    border-radius: 20px;
+    color: white;
+    
+    margin-left: 10px;
+    background-color: #393a3b;
+}
+textarea::placeholder{
+    padding-top: 7px;
+    padding-left: 4px;
+    color: white;
+}
+
+.perfil > img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+.perfil:hover {
+    background-color: #3a3b3c;
+    border-radius: 1.3rem;
+}
+
+.perfil > p {
+    margin: 0 1rem;
+}
+
+.opcion2 {
+    display: flex;
+    align-items: center;
+}
+
+.opcion2 > img {
+    padding: .7vw;
+    margin: 0 .2vw;
+    background-color: #3a3b3c;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.opcion2 > img:hover {
+    background-color: blue;
+}
+
+.write-post-container{
+    width: 50%;
+    border-radius: 2px;
+    padding: 20px;
+    color: #484848;
+    margin-left: 25%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+}
+
+.perfil img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.perfil p{
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: white;
+}
+
+.post-input-container{ 
+    padding-left: 55px;
+    padding-top: 20px;
+    width: 100%;
+    background-color:#242526;
+    border-radius: 6px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.post-input-container textarea{
+    width: 100%;
+    border: 0%;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    background: transparent;
+    resize: none;
+}
+
+.add-post-links{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10%;
+    
+}
+
+
+.add-post-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-right: 18%;
+    font-size: 13px;
+
+}
+
+.add-post-links a img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.perfil span{
+    font-size: 13px;
+    color: #9a9a9a;
+}
+
+.post-text{
+    color: #9a9a9a;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.post-img{
+    width: 500px;
+    height: 400px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.post-container{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    background-color: #242526;
+    border-radius :10px ;
+    
+}
